@@ -7,6 +7,7 @@ public class Sumar {
 
     public static void main(String[] args) {
 
+        //comentario
     double dato1=2,dato2=3,suma, division,valor;
     suma = dato1+ dato2;
     division=dato1/dato2;
