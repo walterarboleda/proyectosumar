@@ -8,7 +8,7 @@ public class Sumar {
     public static void main(String[] args) {
 
         //comentario
-    double dato1=2,dato2=3,suma, division,valor,resta;
+    double dato1=2,dato2=3,suma, division,valor,resta, multiplicacion;
     suma = dato1+ dato2;
     division=dato1/dato2;
     float resultado = (float)Math.sqrt(dato2);
@@ -23,6 +23,9 @@ public class Sumar {
      valor = Math.cos(dato1);
      System.out.println("el coseno es "+valor);
 
+     multiplicacion = dato1*dato2;
+   
+    System.out.println("la multiplicacion es " + multiplicacion);
     
     }
     
