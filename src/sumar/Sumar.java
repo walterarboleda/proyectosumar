@@ -8,7 +8,7 @@ public class Sumar {
     public static void main(String[] args) {
 
         //comentario
-    double dato1=2,dato2=3,suma, division,valor,resta, multiplicacion, tan;
+    double dato1=2,dato2=3,suma, division,valor,resta, logaritmo,multiplicacion, tan;
     suma = dato1+ dato2;
     division=dato1/dato2;
     float resultado = (float)Math.sqrt(dato2);
@@ -17,8 +17,8 @@ public class Sumar {
       System.out.println("La resta es " + resta); 
     System.out.println("La división es " + division);
     System.out.println("La Raiz cuadrada del dato2 es " + resultado);
-   
-
+    logaritmo = Math.log(dato1);//hecho por chriresa
+System.out.println("el logaritmo es " + logaritmo);
      // funcion coseno de dato1 pulgarin2323.
      valor = Math.cos(dato1);
      System.out.println("el coseno es "+valor);
