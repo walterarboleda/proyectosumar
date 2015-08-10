@@ -8,11 +8,13 @@ public class Sumar {
     public static void main(String[] args) {
 
         //comentario
-    double dato1=2,dato2=3,suma, division,valor;
+    double dato1=2,dato2=3,suma, division,valor,resta;
     suma = dato1+ dato2;
     division=dato1/dato2;
     float resultado = (float)Math.sqrt(dato2);
     System.out.println("La suma es " + suma);
+    resta = dato1 - dato2;
+      System.out.println("La resta es " + resta); 
     System.out.println("La división es " + division);
     System.out.println("La Raiz cuadrada del dato2 es " + resultado);
    
