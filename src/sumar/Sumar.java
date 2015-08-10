@@ -7,9 +7,11 @@ public class Sumar {
 
     public static void main(String[] args) {
 
-    double dato1=2,dato2=3,suma;
+    double dato1=2,dato2=3,suma, division;
     suma = dato1+ dato2;
+    division=dato1/dato2;
     System.out.println("La suma es " + suma);
+    System.out.println("La división es " + division);
     
     
     }
